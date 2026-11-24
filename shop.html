@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    select id="shoe-size-1">
+    <option value="40">40</option>
+    <option value="41">41</option>
+    <option value="42">42</option>
+    <option value="43">43</option>
+    <option value="44">44</option>
+    <option value="45">45</option>
+</select>
+
+<button onclick="
+    addToCart(
+        'Classic Sneakers',
+        2500,
+        document.getElementById('shoe-size-1').value
+    )
+">
+    Add to Cart
+</button>
+<a href="register.html">Register</a>
+</body>
+</html>
